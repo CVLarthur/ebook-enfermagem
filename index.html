@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-book Enfermagem EUA</title>
+
+    <!-- Link do CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+    <main class="page">
+
+       <!-- TELA 1 — CAPA 1 SEM TEXTO -->
+<section class="screen hero hero-1">
+</section>
+
+<!-- TELA 2 — CAPA 2 SEM TEXTO -->
+<section class="screen hero hero-2">
+</section>
+
+        <!-- TELA 3 — FORMULÁRIO -->
+        <section class="screen form-screen">
+            <section class="card">
+
+                <header class="card-header">
+                    <p class="tag">Download imediato</p>
+
+                    <h2>Receba o e-book no seu e-mail</h2>
+
+                    <p class="subtitle">
+                        Envie seu melhor e-mail e libere o conteúdo agora mesmo.
+                    </p>
+                </header>
+
+                <section class="content">
+
+                    <!-- Lista do que a pessoa vai aprender -->
+                    <div class="ebook-text">
+                        <h3>Você vai aprender:</h3>
+                        <ul>
+                            <li>Como funciona a validação do diploma passo a passo.</li>
+                            <li>Documentos certos para não gastar dinheiro à toa.</li>
+                            <li>Como lidar com CGFNS, NCLEX, traduções e vistos.</li>
+                            <li>Os erros mais comuns que atrasam o processo.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Formulário -->
+                    <div class="form-area">
+                        <h3>Preencha para liberar o download</h3>
+
+                        <p class="form-sub">
+                            O botão será liberado automaticamente após enviar o e-mail.
+                        </p>
+
+                        <form id="ebook-form" action="https://formspree.io/f/mzzydbve" method="POST">
+                            <label for="email">Seu melhor e-mail</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="seuemail@exemplo.com"
+                                required
+                            />
+
+                            <button type="submit">Quero receber o e-book</button>
+
+                            <p class="small-note">
+                                Nada de spam. Você pode sair da lista a qualquer momento.
+                            </p>
+                        </form>
+
+                        <div id="download-area" class="download-area hidden">
+                            <p>Pronto! Clique abaixo para baixar o e-book:</p>
+                            <a
+                                href="SEU-ARQUIVO-EBOOK.pdf"
+                                target="_blank"
+                                class="download-button"
+                            >
+                                📥 Baixar e-book
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="footer">
+                    <p>Guia criado para enfermeiros(as) brasileiros(as) que desejam atuar legalmente nos EUA.</p>
+                </footer>
+
+            </section>
+        </section>
+
+    </main>
+
+    <!-- Script -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
