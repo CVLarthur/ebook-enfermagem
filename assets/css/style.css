@@ -286,4 +286,19 @@ header img {
     header img {
         max-width: 95%; 
     }
+}/* ===== AJUSTE PARA CELULAR (TELAS PEQUENAS) ===== */
+@media (max-width: 768px) {
+
+    /* Deixa as telas com menos ‘altura rígida’ */
+    .screen {
+        min-height: 100vh;
+        padding: 16px 10px;
+    }
+
+    /* Capas: mostrar a imagem inteira sem zoom absurdo */
+    .hero {
+        background-size: contain;          /* mostra a capa inteira */
+        background-position: top center;   /* alinha pelo topo */
+        background-color: #4C6A3D;         /* cor de fundo igual ao verde da arte */
+    }
 }
