@@ -272,4 +272,18 @@ button:active {
     .card {
         padding: 26px 24px 28px;
     }
+}/* Ajuste da imagem do header para ficar responsiva */
+header img {
+    width: 100%;
+    height: auto;
+    max-width: 600px; /* limite para não ficar enorme em telas grandes */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Ajuste de responsividade para telas pequenas */
+@media (max-width: 768px) {
+    header img {
+        max-width: 95%; 
+    }
 }
